@@ -8,9 +8,9 @@ You might notice the Mesh colliders created on the cube are very thin and can't 
 
 ### Additional Resources
 
-[Tutorials by Unity](https://unity3d.com/learn/tutorials)
+Unity [Tutorials](https://unity3d.com/learn/tutorials)
 
-There are a lot of tutorials, if you are brand new to Unity, I'm going to suggest these from the Topics section to get you started:
+There are a lot of great tutorials at the link above, if you are brand new to Unity, I'm going to suggest these from the Topics section to get you started and that relate to this project:
 [Interface and Essentials](https://unity3d.com/learn/tutorials/topics/interface-essentials)
 The [Animator Component](https://unity3d.com/learn/tutorials/topics/animation/animator-component?playlist=17099) and [Animation Layers](https://unity3d.com/learn/tutorials/topics/animation/animator-controller-layers?playlist=17099) explain more about the Animator. To customize the [UI](https://unity3d.com/learn/tutorials/s/user-interface-ui) you will need to focus on the [UI Canvas](https://unity3d.com/learn/tutorials/topics/user-interface-ui/ui-canvas?playlist=17111) and the [UI Rect Transform](https://unity3d.com/learn/tutorials/modules/beginner/ui/rect-transform?playlist=17111).
 
