@@ -15,7 +15,7 @@ My project includes [Post-Processing Effects](https://docs.unity3d.com/2018.2/Do
 
 You can also just select the Camera in the project and play around with the Color Effects or add new Effects like Depth of Field to see how it affects the scene.
 
-The other thing worth looking at is the Look At Constraint that I attached to the labels. This seems to be a new option in Compenents>Miscelaneous>Look At Constraint in 2018.2. The slider on the labels allow you to decide how aggressively the label looks at the camera. This may or may not be related to the new [Cinemachine Camera](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.1/manual/index.html) systems for film editing, but it's pretty useful!
+The other thing worth looking at is the Look At Constraint that I attached to the labels. This seems to be a new option in Components>Miscelaneous>Look At Constraint in 2018.2. The slider on the labels allow you to decide how aggressively the label looks at the camera. This may or may not be related to the new [Cinemachine Camera](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.1/manual/index.html) systems for film editing, but it's pretty useful!
 
 ### Additional Resources
 
