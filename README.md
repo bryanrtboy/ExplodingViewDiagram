@@ -1,6 +1,8 @@
 # ExplodingViewDiagram
 A small Unity project that demonstrates a workflow to create an exploding view diagram with labels. [The video below](https://youtu.be/eG5sZKun9mQ) explains the project including the 3D animation needed, importing it from Cinema 4D and how the scripts hook up to buttons and mouse-clicks to make things happen. I include two camera orbit scripts, toggle them on/off to see the difference. Feel free to use this as a stub for your own project!
 
+If your browser supports WebGL 2.0, you can run this [online demo](http://www.bryanleister.com/explode/)
+
 [![Tutorial Video](https://github.com/bryanrtboy/ExplodingViewDiagram/blob/master/preview.gif)](https://youtu.be/eG5sZKun9mQ)
 
 ### Notes
