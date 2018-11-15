@@ -340,7 +340,7 @@ LookAtConstraint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 120105797}
   m_Enabled: 1
-  m_Weight: 0
+  m_Weight: 0.67
   m_RotationAtRest: {x: 0, y: 90, z: 0}
   m_RotationOffset: {x: 0, y: 0, z: 0}
   m_Roll: 0
@@ -790,8 +790,8 @@ GameObject:
   - component: {fileID: 430789358}
   - component: {fileID: 430789357}
   - component: {fileID: 430789356}
-  - component: {fileID: 430789355}
   - component: {fileID: 430789354}
+  - component: {fileID: 430789355}
   - component: {fileID: 430789353}
   m_Layer: 5
   m_Name: TopCanvas
@@ -933,7 +933,7 @@ LookAtConstraint:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 430789351}
   m_Enabled: 1
-  m_Weight: 0
+  m_Weight: 0.8
   m_RotationAtRest: {x: 0, y: 90, z: 0}
   m_RotationOffset: {x: 0, y: 0, z: 0}
   m_Roll: 0
