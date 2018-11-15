@@ -53,6 +53,7 @@ ModelImporter:
     7400012: ALL
     7400014: Open
     7400016: Closed
+    7400018: LeftEntry
     9500000: //RootNode
   externalObjects:
   - first:
@@ -416,6 +417,48 @@ ModelImporter:
         weight: 1
       - path: Top
         weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: LeftEntry
+      takeName: CINEMA_4D_Main
+      firstFrame: 10
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Back
+        weight: 0
+      - path: Bottom
+        weight: 0
+      - path: Front
+        weight: 0
+      - path: Left
+        weight: 1
+      - path: Right
+        weight: 0
+      - path: Top
+        weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
