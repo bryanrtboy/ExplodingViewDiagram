@@ -6,6 +6,10 @@ A small Unity project that demonstrates a workflow to create an exploding view d
 ### Notes
 You might notice the Mesh colliders created on the cube are very thin and can't be selected from the back. Check the [Convex](https://docs.unity3d.com/2017.4/Documentation/Manual/class-MeshCollider.html) option to make them bulkier and easier to select.
 
+My project includes [Post-Processing Effects](https://docs.unity3d.com/2018.2/Documentation/Manual/PostProcessing-Stack.html). These are under active development, so it's kind of hard to find them and instructions. I used the [Package Manager](https://blogs.unity3d.com/2018/05/04/project-management-is-evolving-unity-package-manager-overview/) to load the package from Unity>WIndows>Package Manager. You can probably use that to check if this version is current.
+
+You can also just select the Camera in the project and play around with the Color Effects or add new Effects like Depth of Field to see how it affects the scene.
+
 ### Additional Resources
 
 Unity [Tutorials](https://unity3d.com/learn/tutorials)
@@ -14,7 +18,6 @@ There are a lot of great tutorials at the link above, if you are brand new to Un
 [Interface and Essentials](https://unity3d.com/learn/tutorials/topics/interface-essentials)
 The [Animator Component](https://unity3d.com/learn/tutorials/topics/animation/animator-component?playlist=17099) and [Animation Layers](https://unity3d.com/learn/tutorials/topics/animation/animator-controller-layers?playlist=17099) explain more about the Animator. To customize the UI elements, you will need to look at the [UI Tutorials](https://unity3d.com/learn/tutorials/s/user-interface-ui), pay particular attention to the [UI Canvas](https://unity3d.com/learn/tutorials/topics/user-interface-ui/ui-canvas?playlist=17111) and the [UI Rect Transform](https://unity3d.com/learn/tutorials/modules/beginner/ui/rect-transform?playlist=17111).
 
-My project includes [Post-Processing Effects](https://docs.unity3d.com/2018.2/Documentation/Manual/PostProcessing-Stack.html). These are under active development, so it's kind of hard to find them and instructions. I used the [Package Manager](https://blogs.unity3d.com/2018/05/04/project-management-is-evolving-unity-package-manager-overview/) to load the package from Unity>WIndows>Package Manager. You can probably use that to check if this version is current.
 
 This tutorial is geared for artist/designers. The [Artist Tutorials](https://unity3d.com/learn/tutorials/s/unity-artists) go into more detail about how to further improve the final look of the application.
 
