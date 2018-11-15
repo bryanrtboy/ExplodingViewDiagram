@@ -3,7 +3,10 @@ A small Unity project that demonstrates a workflow to create an exploding view d
 
 [![Tutorial Video](https://github.com/bryanrtboy/ExplodingViewDiagram/blob/master/preview.gif)](https://youtu.be/eG5sZKun9mQ)
 
-Additional Resources
+#H3 Notes
+You might notice the Mesh colliders created on the cube are very thin and can't be selected from the back. Check the [Convex](https://docs.unity3d.com/2017.4/Documentation/Manual/class-MeshCollider.html) option to make them bulkier and easier to select.
+
+#H3 Additional Resources
 
 [Tutorials by Unity](https://unity3d.com/learn/tutorials)
 
