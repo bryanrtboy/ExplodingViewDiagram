@@ -6,7 +6,10 @@ If your browser supports WebGL 2.0, you can run this [online demo](http://www.br
 [![Tutorial Video](https://github.com/bryanrtboy/ExplodingViewDiagram/blob/master/preview.gif)](https://youtu.be/eG5sZKun9mQ)
 
 ### Notes
+
 You might notice the Mesh colliders created on the cube are very thin and can't be selected from the back. Check the [Convex](https://docs.unity3d.com/2017.4/Documentation/Manual/class-MeshCollider.html) option to make them bulkier and easier to select.
+
+Not mentioned in the video, but note that the names of the GameObjects imported from C4D correspond to the layers, i.e. "Top", "Front", etc. If you read the CubeController.cs script you'll see that I grab the name of the object with a Collider attached and then tell the Animator to blend to that layer. This requires that the GameObject be named the same as the layers created in the Animator.
 
 My project includes [Post-Processing Effects](https://docs.unity3d.com/2018.2/Documentation/Manual/PostProcessing-Stack.html). These are under active development, so it's kind of hard to find them and instructions. I used the [Package Manager](https://blogs.unity3d.com/2018/05/04/project-management-is-evolving-unity-package-manager-overview/) to load the package from Unity>WIndows>Package Manager. You can probably use that to check if this version is current.
 
