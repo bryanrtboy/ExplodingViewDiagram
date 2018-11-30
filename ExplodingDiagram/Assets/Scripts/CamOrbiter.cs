@@ -10,13 +10,19 @@ public class CamOrbiter : MonoBehaviour
 */
 
 
-    // The target we are following
+
     public Transform cameraTargetTransform;
+    [Tooltip("How far from the target should the camera be at the start of the level")]
+    public float startingRadius = 20;
+    [Tooltip("After start, how far away should the camera be from the target")]
     public float desiredRadiusFromTarget = 10;
     public float dragRotateSpeed = 6;
+    [Tooltip("When the user lifts the mouse, how fast until the camera before the camera is resting again")]
     public float restRotateSpeed = 2;
+    [Tooltip("Do you want to copy the orientation of the camera at startup")]
+    public bool useCameraRotationAtStart = true;
 
-    float radiusFromTarget = 20;
+
     float desiredBeta = 15;
     float desiredAlpha = 15;
     bool isDraggingView = false;
@@ -24,9 +30,15 @@ public class CamOrbiter : MonoBehaviour
     float beta = 15;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
-
+        if (useCameraRotationAtStart)
+        {
+            desiredAlpha = transform.localEulerAngles.y;
+            desiredBeta = transform.localEulerAngles.x;
+            alpha = transform.localEulerAngles.y;
+            beta = transform.localEulerAngles.x;
+        }
     }
 
     // Update is called once per frame
