@@ -91,8 +91,8 @@ public class CamOrbiter : MonoBehaviour
         transform.Rotate(new Vector3(beta, alpha, 0));
 
 
-        radiusFromTarget = Mathf.Lerp(radiusFromTarget, desiredRadiusFromTarget, Time.deltaTime);
-        var distance = radiusFromTarget;
+        startingRadius = Mathf.Lerp(startingRadius, desiredRadiusFromTarget, Time.deltaTime);
+        var distance = startingRadius;
         transform.position -= transform.rotation * Vector3.forward * distance;
 
 
